@@ -1,0 +1,29 @@
+/* components/Navbar/Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-link {
+    color: var(--text-muted-color);
+    transition: color 0.2s ease;
+}
+
+.navbar-link:hover {
+    color: var(--primary-color);
+}

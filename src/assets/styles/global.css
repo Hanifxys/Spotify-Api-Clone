@@ -1,0 +1,68 @@
+/* global.css */
+
+/* Reset CSS untuk menghapus gaya default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Variabel warna untuk memudahkan penggunaan tema */
+:root {
+    --primary-color: #1DB954;  /* Hijau Spotify */
+    --secondary-color: #121212;  /* Background gelap */
+    --tertiary-color: #282828;  /* Warna secondary untuk elemen-elemen seperti card */
+    --text-color: #FFFFFF;  /* Warna teks utama */
+    --text-muted-color: #B3B3B3;  /* Warna teks sekunder/muted */
+    --font-family: 'Circular Std', Arial, sans-serif;  /* Font family Spotify */
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    overflow-x: hidden;  /* Menghindari scroll horizontal */
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* Tambahkan gaya untuk komponen lain seperti tombol, kartu, dll jika diperlukan */

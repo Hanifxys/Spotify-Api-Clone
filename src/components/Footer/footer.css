@@ -1,0 +1,15 @@
+/* components/Footer/Footer.css */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: var(--tertiary-color);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    font-size: 0.875rem;
+    color: var(--text-muted-color);
+}
